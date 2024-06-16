@@ -18,3 +18,4 @@ Included logic to compute the down payment based on the percentage of the car va
 Ensured that user inputs are within specified valid ranges (car value between 10,000 and 200,000 euros, lease period between 12 and 60 months, down payment between 10% and 50%).
 Implemented real-time updates for the results section by recalculating values whenever any input changes, removing the need for a separate submit button.
 Displayed the results in a structured format, with clear labels for leasing cost, down payment, monthly installment, and interest rate.
+-------------------------------------------------------------------------------------------------------------------------------------------
