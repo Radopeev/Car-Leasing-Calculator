@@ -11,6 +11,7 @@ Used flexbox for the layout, ensuring a responsive design that adapts to various
 Included media queries to handle smaller screen sizes effectively.
 -------------------------------------------------------------------------------------------------------------------------------------------
 JavaScript Logic
+
 Added event listeners to capture and respond to user input changes dynamically.
 Synchronized range inputs with corresponding number inputs for car value and lease period to provide flexibility in user input.
 Calculated the monthly installment using the standard loan amortization formula, considering the car type's interest rate.
