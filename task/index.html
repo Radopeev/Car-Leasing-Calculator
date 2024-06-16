@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Leasing Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>Car Leasing Calculator</h1>
+        <form id="leasing-form">
+            <label for="car-type">Car Type:</label>
+            <select id="car-type">
+                <option value="new">Brand New</option>
+                <option value="used">Used</option>
+            </select>
+
+            <label for="car-value">Car Value (€):</label>
+            <input type="range" id="car-value-range" min="10000" max="200000" step="1000">
+            <input type="number" id="car-value" min="10000" max="200000" step="1000">
+
+            <label for="lease-period">Lease Period (months):</label>
+            <input type="range" id="lease-period-range" min="12" max="60" step="12">
+            <input type="number" id="lease-period" min="12" max="60" step="12">
+
+            <label for="down-payment">Down Payment (%):</label>
+            <input type="range" id="down-payment" min="10" max="50" step="5">
+
+            <div class="results">
+                <div class="left-column">
+                    <p>Leasing Cost: <span id="leasing-cost"></span></p>
+                    <p>Down Payment: <span id="down-payment-value"></span> (<span id="down-payment-percent"></span>%)</p>
+                </div>
+                <div class="right-column">
+                    <p>Monthly Installment: <span id="monthly-installment"></span></p>
+                    <p>Interest Rate: <span id="interest-rate"></span>%</p>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
